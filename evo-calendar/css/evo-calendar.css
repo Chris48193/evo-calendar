@@ -416,7 +416,7 @@ tr.calendar-body .calendar-day .day[disabled] {
     color: #755eb5;
     border: 1px solid #755eb5;
     border-radius: 3px;
-    background-color: rgb(237 234 246);
+    background-color: rgb(237, 234, 246);
     padding: 3px 6px;
     transform: translateY(-50%);
 }

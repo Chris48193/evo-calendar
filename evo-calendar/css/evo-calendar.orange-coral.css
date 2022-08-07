@@ -13,8 +13,8 @@
 
 /* Evo Calendar - Theme: Orange Coral */
 .orange-coral {
-    -webkit-box-shadow: 0 10px 50px -20px rgb(255, 153, 102, 0.65);
-            box-shadow: 0 10px 50px -20px rgb(255, 153, 102, 0.65);
+    -webkit-box-shadow: 0 10px 50px -20px rgba(255, 153, 102, 0.65);
+            box-shadow: 0 10px 50px -20px rgba(255, 153, 102, 0.65);
     border: 2px solid #fc9567;
 }
 .orange-coral .calendar-sidebar {
@@ -41,8 +41,8 @@
 .orange-coral .calendar-sidebar > span#sidebarToggler,
 .orange-coral #eventListToggler {
     background-color: #ff9665;
-    -webkit-box-shadow: 0 0 18px -3px rgb(255, 153, 102, 0.65);
-            box-shadow: 0 0 18px -3px rgb(255, 153, 102, 0.65);
+    -webkit-box-shadow: 0 0 18px -3px rgba(255, 153, 102, 0.65);
+            box-shadow: 0 0 18px -3px rgba(255, 153, 102, 0.65);
 }
 .orange-coral th[colspan="7"] {
     position: relative;

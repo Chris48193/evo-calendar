@@ -151,7 +151,7 @@
     border: 1px solid #00adb5;
 }
 .midnight-blue .event-container:hover > .event-info > p.event-title > span {
-    background-color: rgb(0 173 181);
+    background-color: rgb(0, 173, 181);
 }
 
 .midnight-blue .event-list > .event-empty {
