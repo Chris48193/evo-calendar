@@ -668,9 +668,14 @@
         if (event_data.color) {
             markup += 'style="background-color:'+event_data.color+'"'
         }
-        markup += '></div></div><div class="event-info"><p class="event-title">'+event_data.name;
+        markup += '></div></div><div class="event-info"><h4 class="event-title text-left">';
+        if (event_data.url) {
+            markup += '<a href="'+event_data.url + '">'+event_data.name+'</a>';
+        } else {
+            markup += event_data.name;
+        }
         if (event_data.badge) markup += '<span>'+event_data.badge+'</span>';
-        markup += '</p>'
+        markup += '</h4>'
         if (event_data.description) markup += '<p class="event-desc">'+event_data.description+'</p>';
         markup += '</div>';
         markup += '</div>';
