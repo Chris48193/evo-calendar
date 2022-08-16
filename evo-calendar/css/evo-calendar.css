@@ -686,7 +686,7 @@ button.icon-button > span.chevron-arrow-right {
         padding: 0 1px 3px 1px;
     }
     .calendar-events {
-        width: 48%;
+        width: 70%;
         padding: 70px 20px 60px 20px;
         -webkit-box-shadow: -5px 0 18px -3px rgba(135, 115, 193, 0.5);
                 box-shadow: -5px 0 18px -3px rgba(135, 115, 193, 0.5);
@@ -752,7 +752,7 @@ button.icon-button > span.chevron-arrow-right {
 }
 
 /* xs */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .calendar-sidebar {
         width: 100%;
     }
@@ -838,6 +838,7 @@ button.icon-button > span.chevron-arrow-right {
     }
 
     .calendar-inner {
+        overflow-x:auto;
         margin-left: 0;
         padding: 53px 0 40px 0;
         float: unset;
@@ -916,7 +917,7 @@ button.icon-button > span.chevron-arrow-right {
         position: relative;
         padding: 20px 15px;
         width: 100%;
-        height: 185px;
+        height: 600px;
         -webkit-box-shadow: 0 5px 18px -3px rgba(0, 0, 0, 0.15);
         box-shadow: 0 5px 18px -3px rgba(0, 0, 0, 0.15);
         overflow-y: auto;
